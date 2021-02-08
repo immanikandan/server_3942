@@ -78,7 +78,7 @@ services:
     image: serverfeature-3942
     container_name: serverfeature-3942
     ports: 
-      - 8007:8007
+      - 8008:8008
     env_file: .env
     depends_on:
       - mongo
